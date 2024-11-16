@@ -11,7 +11,7 @@ A weather forecast website that fetches data from an external API to provide use
 - **Backend:** Node.js, Express.js
 - **Templating Engine:** EJS
 - **API:** Weather data API (OpenWeatherMap)
-- **Other Tools:** Axios for making HTTP requests
+- **Other Tools:** Axios, jQuery, Body Parser
 
 ## Installation
 
