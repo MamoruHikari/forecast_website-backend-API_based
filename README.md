@@ -4,7 +4,6 @@ A weather forecast website that fetches data from an external API to provide use
 
 ## Features
 - **Current Weather:** Displays the current weather conditions based on the user's location or selected city.
-- **Forecast:** Shows a weather forecast including temperature, humidity, and wind speed.
 - **Responsive Design:** Mobile-friendly and works across different devices.
 
 ## Technology Stack
