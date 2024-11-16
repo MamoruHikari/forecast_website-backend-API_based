@@ -6,11 +6,6 @@ html {
 
 body {
   margin: 0;
-  visibility: hidden;
-}
-
-body.loaded {
-  visibility: visible;
 }
 
  footer, section {
