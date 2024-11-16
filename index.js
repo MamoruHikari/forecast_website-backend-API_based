@@ -8,7 +8,10 @@ const port = process.env.PORT || 3000;
 const apiKey = "673057e62a92633afd228a705a16c271";
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
+app.use(express.static("public", {
+  maxAge: '1d',
+  etag: false
+}));
 
 app.get("/", (req, res) => {
     res.render("index.ejs");
