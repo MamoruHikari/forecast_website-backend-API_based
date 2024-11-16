@@ -330,6 +330,55 @@ img {
   overflow: hidden;
 }
 
+.hero {
+  z-index: 3;
+  background-image: linear-gradient(#0000000d, #0000000d), url("../images/hero-3.avif");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  padding-bottom: 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero.for-inner {
+  background-image: url("../images/background-image.svg");
+  background-position: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.hero.for-inner-second {
+  background-image: linear-gradient(#0000, #0000), url("../images/hero-3-1.avif");
+  min-height: 700px;
+}
+
+.hero.for-inner-second.for-about {
+  background-image: url("../images/hero-5.avif");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero.for-inner-second.for-contact {
+  background-image: url("../images/photo-4.avif");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero.for-inner-second.for-package {
+  background-image: url("../images/photo-8.avif");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
   justify-content: center;
   align-items: stretch;
@@ -338,6 +387,28 @@ img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+.container.for-checkout {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container.with-vh {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  background-color: var(--main-color);
+  text-align: center;
+  border-radius: 30px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  overflow: hidden;
 }
 
 .container.add-percent {
@@ -352,6 +423,18 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+}
+
+.main-grid.flex {
+  grid-row-gap: 30px;
+  flex-flow: column;
+  display: flex;
+  position: sticky;
+  top: 50px;
+}
+
+.main-grid._5vw {
+  grid-row-gap: 6vw;
 }
 
 .hero-subhead {
