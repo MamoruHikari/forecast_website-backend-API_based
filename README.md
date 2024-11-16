@@ -15,5 +15,6 @@ A weather forecast website that fetches data from an external API to provide use
 
 ## Installation
 
-To run the project locally, follow these steps:
+To run the project, follow this link:
 
+https://forecast-website-backend-api-based.onrender.com
