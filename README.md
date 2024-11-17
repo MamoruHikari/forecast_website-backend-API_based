@@ -17,4 +17,6 @@ A weather forecast website that fetches data from an external API to provide use
 
 To run the project, follow this link:
 
-https://forecast-website-backend-api-based.onrender.com
+[View live](https://forecast-website-backend-api-based.onrender.com)
+
+**Note:** It can take up to **60 seconds** for the website to load on a free-tier Render account.
