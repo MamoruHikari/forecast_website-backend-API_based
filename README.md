@@ -13,7 +13,7 @@ A weather forecast website that fetches data from an external API to provide use
 - **API:** Weather data API (OpenWeatherMap)
 - **Other Tools:** Axios, jQuery, Body Parser
 
-## Installation
+## Launch
 
 To run the project, follow this link:
 
