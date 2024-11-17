@@ -1,6 +1,6 @@
 # Forecast Website
 
-A weather forecast website that fetches data from an external API to provide users with current weather data.
+A weather forecast website that retrieves data from an external API to provide users with the current weather information.
 
 ## Features
 - **Current Weather:** Displays the current weather conditions based on the user's location or selected city.
