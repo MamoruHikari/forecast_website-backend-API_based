@@ -68,11 +68,8 @@ The app will start on [http://localhost:3000](http://localhost:3000)
 
 ## 🧠 How It Works
 
-1. **User inputs** a city name.
+1. **User inputs** a city name and presses Enter.
 2. The app uses the **OpenWeatherMap Geocoding API** to get the city’s latitude and longitude.
 3. It then queries the **Current Weather Data API** using those coordinates.
 4. The backend formats sunrise/sunset times, visibility, and timezone-specific local times.
 5. The data is passed to an **EJS template**, which dynamically renders the forecast results.
-
-Would you like me to tailor this README for **a more portfolio-style presentation** (e.g. polished language, badges, visuals) or keep it **developer-focused** like this version?
-
