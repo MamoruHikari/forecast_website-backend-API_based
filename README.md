@@ -42,7 +42,7 @@ npm install
 
 ### 3️⃣ Add your OpenWeatherMap API key
 
-Replace the value of `apiKey` in `index.js`:
+Replace the value of `apiKey`:
 
 ```js
 const apiKey = "YOUR_API_KEY_HERE";
