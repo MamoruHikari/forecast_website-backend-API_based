@@ -30,8 +30,8 @@ Built with **Node.js**, **Express**, and **EJS**, this project demonstrates API 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/forecast-website.git
-cd forecast-website
+git clone https://github.com/MamoruHikari/forecast_website-backend-API_based
+cd forecast_website-backend-API_based
 ```
 
 ### 2️⃣ Install dependencies
